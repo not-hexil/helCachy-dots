@@ -1,0 +1,5 @@
+keybinds clear-defaults=true {}
+pane_frames false
+simplified_ui true
+show_startup_tips false
+passthrough true

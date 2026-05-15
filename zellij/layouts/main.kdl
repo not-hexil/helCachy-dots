@@ -1,0 +1,14 @@
+layout {
+    pane split_direction="vertical" {
+        pane size="75%" focus=true command="fish"
+        
+        pane split_direction="horizontal" size="25%" {
+            pane command="pipes.sh" {
+                args "-p" "3" "-s" "20" "-r" "0" "-t" "1"
+            }
+            pane command="unimatrix" {
+                args "-s" "90" "-a" "-u" "Linux" "-c" "blue"
+            }
+        }
+    }
+}
